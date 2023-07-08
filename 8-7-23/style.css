@@ -1,0 +1,60 @@
+/* #2A4142 green */
+/* #F7B941 nav yellow */
+/* #F7B941 btn yellow */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Blafhy Glibs";
+    font-size: 10px;
+}
+
+#main {
+    height: 100vh;
+    width: 100%;
+    background-color: #2A4142;
+    padding-top: 1px;
+}
+
+nav {
+    width: 95%;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.298);
+    text-transform: uppercase;
+    color: white;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.nav-data {
+    display: flex;
+    gap: 15px;
+}
+
+.cart {
+    display: flex;
+    gap: 5px;
+    height: 100%;
+    align-items: center;
+}
+
+.circle {
+    height: inherit;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    background-color: #F7B941;
+    font-weight: bold;
+    transform: translateX(12%);
+}

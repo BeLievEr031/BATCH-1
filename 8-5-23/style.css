@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    background-color: lightgreen;
+    height: 25px;
+    align-items: center;
+    color: white;
+}
+
+section {
+    height: 100vh;
+    background-color: lightcoral;
+    border: 2px solid black;
+}
+
+#drop-parent {
+    position: relative;
+    height: 100%;
+}
+
+#drop-down {
+    width: 100px;
+    background-color: lightseagreen;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
