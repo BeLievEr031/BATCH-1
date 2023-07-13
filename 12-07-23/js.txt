@@ -1,0 +1,34 @@
+Basic
+
+variables+
+operators+
+conditions+
+data types+
+string+
+
+//Memory diagram of Loop, variables, Array, Functions
+
+loops
+Functions
+
+
+
+array
+
+
+set, Map
+object
+Recursion 
+Comments
+Type conversion 
+
+Algo :- Linear search, Binary search, Sorting Algo,Filtering, 
+
+
+
+
+
+Intermitted
+
+
+Advanced
