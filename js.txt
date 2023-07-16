@@ -8,16 +8,16 @@ string+
 
 //Memory diagram of Loop, variables, Array, Functions
 
-loops
-Functions
+loops+
+Functions+
 
 
 
 array
+object
 
 
 set, Map
-object
 Recursion 
 Comments
 Type conversion 
