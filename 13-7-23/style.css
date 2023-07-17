@@ -136,13 +136,82 @@ hr {
 
 }
 
-.product-card h1{
+.product-card h1 {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 2px;
 }
 
-.arrow{
+.arrow {
     color: tomato;
     font-size: 20px;
+}
+
+.banner-1 {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D87C49;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bnr-img {
+    width: 45%;
+    text-align: center;
+}
+
+.banner-1 img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.bnr-data {
+    width: 45%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 999;
+}
+
+.bnr-data h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.bnr-data p {
+    font-size: 25px;
+    width: 80%;
+}
+
+.bnr-btn {
+    padding: 15px;
+    width: 25%;
+    text-transform: uppercase;
+    background-color: black;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+.circle{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+}
+
+.circle-1{
+    width: 800px;
+    height: 800px;
+    top: -10%;
+    left: 20%;
+    z-index: 1;
+    transform: translateX(-50%)
 }
