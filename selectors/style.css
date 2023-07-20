@@ -1,0 +1,30 @@
+/* this is called as universal selector */
+/* * {
+    color: red;
+} */
+
+
+/* this is called as tag selector */
+/* div {
+    color: red;
+} */
+
+
+/* this is called as class selector */
+.c1 {
+    color: red;
+}
+
+/* this is called as id selector */
+
+#id1 {
+    color: blue;
+}
+
+.c1 .c1-child{
+    color: green;
+} 
+
+.c1.c2 .c1-child{
+    color: pink;
+}
